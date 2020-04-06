@@ -8,6 +8,8 @@ COPY package.json .
 COPY package-lock.json .
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3001
+
+ENV PORT=3001
 
 CMD ["npm", "start"]

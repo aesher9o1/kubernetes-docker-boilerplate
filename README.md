@@ -6,3 +6,7 @@
 2. Docker Desktop
 
 ## Making an image
+```shell
+docker build --tag test:1.0 .
+
+```
